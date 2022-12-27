@@ -37,7 +37,7 @@ LENGTH: the sequence length (default: 10)"
 
   (if (< length 0)
       (error "The sequence length '%s' is less than zero" length))
-n
+
   (dotimes (i length)
     (iter-yield (funcall selector i))))
 

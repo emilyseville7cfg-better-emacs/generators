@@ -48,6 +48,20 @@ Below square brackets are used to represent optional parameters and **not** arra
 - Function: `generators-list selector [length]`
   Description: Generate a list with a specific length.
 
+## Examples
+
+Generate a sequence of 5 numbers `[2 3 4 5 6]`:
+
+```lisp
+(iter-do (item (generators-sequence '(lambda (index) (+ 2 index)) 5)) (message (format "item is %d" item)))
+```
+
+Generate a list of 5 numbers `[2 3 4 5 6]`:
+
+```lisp
+(generators-list '(lambda (index) (+ 2 index)) 5)
+```
+
 ## FAQ
 
 - Why to use generators to generate sequences?
