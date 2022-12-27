@@ -24,7 +24,7 @@
 
 ;;; Code:
 
-(iter-defun generators-lazy-sequence(selector &optional length)
+(iter-defun generators-sequence(selector &optional length)
   "Generate a sequence with a specific LENGTH.
 SELECTOR: the selector to project items (signature: selector(index))
 LENGTH: the sequence length (default: 10)"
@@ -37,7 +37,7 @@ LENGTH: the sequence length (default: 10)"
 
   (if (< length 0)
       (error "The sequence length '%s' is less than zero" length))
-
+n
   (dotimes (i length)
     (iter-yield (funcall selector i))))
 

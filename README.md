@@ -43,7 +43,7 @@ All `length` parameters are optional and defaults to `10`.
 By convention all parameters are ordered as follows: `selector`, and `length`.
 Below square brackets are used to represent optional parameters and **not** arrays.
 
-- Function: `generators-lazy-sequence selector [length]`
+- Function: `generators-sequence selector [length]`
   Description: Generate a sequence with a specific length.
 - Function: `generators-list selector [length]`
   Description: Generate a list with a specific length.
