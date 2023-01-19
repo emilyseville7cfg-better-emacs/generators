@@ -1,5 +1,7 @@
 ;;; generators.el --- Functions to generate data structures  -*- lexical-binding: t; -*-
 
+;; URL: https://github.com/emilyseville7cfg-better-emacs/generators
+
 ;; Copyright (c) 2022 Emily Grace Seville <EmilySeville7cfg@gmail.com>
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "27.1"))
@@ -18,11 +20,12 @@
 ;; along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;  For details view README file.
-
-;; URL: https://github.com/emilyseville7cfg-better-emacs/generators
+;;  This package is the part of Better Emacs project.
 
 ;;; Code:
+
+(require 'generator)
+(require 'cl-lib)
 
 (iter-defun generators-sequence(selector &optional length)
   "Generate a sequence with a specific LENGTH.
