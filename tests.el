@@ -32,7 +32,6 @@
 
 (ert-deftest generators-sequence--expect-correct-sequence-when-parameters-are-correct()
   "Expect correct sequence when all parameters are correct."
-  (should-error (generators-sequence '(lambda (index) index) 1))
   (iter-do (item (generators-sequence '(lambda (index) index) 1)) (should (equal 0 item))))
 
 (ert-deftest generators-list--expect-error-when-selector-is-nil()
