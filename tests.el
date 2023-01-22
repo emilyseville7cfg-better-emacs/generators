@@ -1,8 +1,6 @@
 ;;; tests.el --- Unit tests  -*- lexical-binding: t; -*-
 
-;; URL: https://github.com/emilyseville7cfg-better-emacs/generators
-
-;; Copyright (c) 2023 Emily Grace Seville <EmilySeville7cfg@gmail.com>
+;; Copyright (c) 2022 Emily Grace Seville <EmilySeville7cfg@gmail.com>
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "27.1"))
 
@@ -21,6 +19,8 @@
 
 ;;; Commentary:
 ;;  This package is the part of Better Emacs project.
+
+;; URL: https://github.com/emilyseville7cfg-better-emacs/generators
 
 ;;; Code:
 
