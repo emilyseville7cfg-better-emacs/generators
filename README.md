@@ -1,4 +1,6 @@
-# random-generators
+# Generators
+
+Functions to generate data structures.
 
 ## Requirenments
 
